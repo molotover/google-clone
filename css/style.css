@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+  font-family: arial;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5px;
+  margin-top: 15px;
+  align-items: center;
+}
+main{
+  min-height: 81vh;
+
+}
+header p{
+  font-size: 1.3rem;
+  color: #000;
+}
+header p:hover{
+  text-decoration: underline;
+  color: #000000D9;
+}
+header div{
+  padding: 0 18px 0 0;
+}
+.btn-header{
+  background-color: #4285f4;
+  border: 1px solid;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  padding: 9px 15px;
+}
+
+.principal{
+  padding-top: 109px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.barra{
+  width: 582px;
+  height: 44px;
+  border: 1px solid #DFE1E5;
+  border-radius: 50px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.lupa img{
+  width: 15px;
+
+}
+.micro img{
+  width: 20px;
+  position:relative;
+}
+.lupa{
+  margin-left: 14px;
+}
+.micro{
+  margin-right: 14px;
+}
+.barra:hover{
+  box-shadow: 0px 1px 5px -2px #B0B0B0;
+}
+
+.btn-bcg{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  min-width: 54px;
+  height: 36px;
+  padding: 0 16px 0 16px;
+  border-radius: 4px;
+  margin: 30px 8px 11px 8px;
+
+}
+.btn-bcg:hover{
+  border: 1px solid #DADCE0;
+  box-shadow: 0px 1px 5px -1px #D3D3D3;
+}
+.btn-mss{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  min-width: 54px;
+  height: 36px;
+  padding: 0 16px 0 16px;
+  border-radius: 4px;
+  margin: 30px 8px 11px 8px;
+}
+.btn-mss:hover{
+  border: 1px solid #DADCE0;
+  box-shadow: 0px 1px 5px -1px #D3D3D3;
+}
+.botones{
+  display: flex;
+  justify-content: center;
+}
+.sec-up{
+  background-color: #f2f2f2;
+  padding: 15px 0 15px 20px;
+  border-top: 1px solid #dadce0;
+  border-bottom: 1px solid #dadce0;
+}
+.sec-up p{
+  color: #0000008A;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.sec-up p:hover{
+  text-decoration: underline;
+}
+.sec-down{
+  background-color: #f2f2f2;
+  padding: 15px 0 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ft-left{
+  padding-left: 20px;
+}
+
+span a{
+  color: #0000008A;
+  font-size: 1.5rem;
+  padding: 15px 20px 15px 0px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+span a:hover{
+  text-decoration: underline;
+}
+footer{
+  display: block;
+  align-items: flex-end;
+}
