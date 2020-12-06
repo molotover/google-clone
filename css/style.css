@@ -16,7 +16,6 @@ header{
 }
 main{
   min-height: 81vh;
-  background-color: purple;
 }
 header p{
   font-size: 1.3rem;
